@@ -37,11 +37,11 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: goole scholar
+  - title: google scholar
     url: https://scholar.google.com/citations?user=XN0qbX8AAAAJ&hl=it&oi=ao
   - title: github
     url: http://github.com/FilippoAleotti
-  - tile: linkedin
+  - tile: linkedin-in
     url: https://it.linkedin.com/in/filippo-aleotti-756886119
 
 # Postal address (add as many lines as necessary)
