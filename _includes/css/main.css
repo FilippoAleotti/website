@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -101,7 +101,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 header .intro-text .skills {
@@ -151,7 +151,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .navbar a:focus {
@@ -177,7 +177,8 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
+    color: #{{ site.color.tertiary }}
 }
 
 section.success {
@@ -254,7 +255,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #{{ site.color.tertiary }};
     font-size: 20px;
     color: #fff;
     background: 0 0;
@@ -446,7 +447,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{site.color.tertiary}} !important;
 }
 
 /* Fix modal mouse wheel issues */
