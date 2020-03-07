@@ -1,8 +1,8 @@
 # Site settings
 title: Filippo Aleotti
 email: filippoaleotti@yahoo.it
-url: https://example.github.io
-description: "PhD student"
+url: https://filippoaleotti.github.io/website/
+description: "PhD student @ University of Bologna"
 keywords: "your keywords, separated by commas"
 skills: ""
 meta_author: Aleotti Filippo
@@ -33,7 +33,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Filippo Aleotti <br><br> Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. 
+  copyright: Filippo Aleotti
+  credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -41,8 +42,10 @@ social:
     url: https://scholar.google.com/citations?user=XN0qbX8AAAAJ&hl=it&oi=ao
   - title: github
     url: http://github.com/FilippoAleotti
-  - tile: linkedin-in
-    url: https://it.linkedin.com/in/filippo-aleotti-756886119
+  - title: envelope
+    url: mailto:filippo.aleotti2@unibo.it
+
+
 
 # Postal address (add as many lines as necessary)
 address:

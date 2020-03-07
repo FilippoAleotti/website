@@ -1,3 +1,20 @@
+# Personal website
+
+Site is available at [https://filippoaleotti.github.io/website/](https://filippoaleotti.github.io/website/)
+
+## Local development with Docker
+
+Run  `docker-compose` 
+
+```bash
+docker-compose up
+```
+
+Service should be available at [localhost:8080](localhost:8080)
+
+
+## About the Freelancer Theme
+
 Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
 =========================
 

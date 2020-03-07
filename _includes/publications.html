@@ -10,34 +10,14 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ post.title }}</h2>
-                        <hr>
-                        <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                        
-                        <ul class="list-inline item-details">
-                            {% if post.project-date %}
-                                <li class="col-lg-4"><span style="color: crimson;">Date:</span>
-                                    <br>
-                                    {{ post.project-date }}
-                                </li>
-                            {% endif %}
-                            {% if post.conference %}
-                                <li class="col-lg-4"><span style="color: crimson;">Conference:</span>
-                                    <br>
-                                    <b>{{ post.conference }}</b>
-                                </li>
-                            {% endif %}
-                            {% if post.keywords %}
-                                <li class="col-lg-4"><span style="color: crimson;">Keywords:</span>
-                                    <br>
-                                    {% for key in post.keywords %}
-                                        <ul style="text-align: left;"> - {{ key }} </ul>
-                                    {% endfor %}
-                                </li>
-                            {% endif %}
-                        </ul>
-                        
-                        <button type="button" class="btn btn-default" style="margin-top: 10%;" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
+                        <li>
+                            <ul>M. Poggi, F. Aleotti, F. Tosi and S. Mattoccia, "On the uncertainty of self-supervised monocular depth estimation", accepted at The IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2020), June 16-18, 2020, Seattle, Washington, US.</ul>
+                            <ul>F. Tosi, F. Aleotti, P. Zama Ramirez, M. Poggi, S. Salti, L. Di Stefano and S. Mattoccia, "Distilled Semantics for Comprehensive Scene Understanding from Videos", accepted at The IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2020), June 16-18, 2020, Seattle, Washington, US.</ul>
+                            <ul>F. Aleotti, M. Poggi, F. Tosi, S. Mattoccia, "Learning end-to-end scene flow by distilling single tasks knowledge", accepted at the 34th AAAI Conference on Artificial Intelligence, New York, US, February 7-12, 2020</ul>
+                            <ul>F. Tosi, F. Aleotti, M. Poggi and S. Mattoccia, "Learning monocular depth estimation infusing traditional stereo knowledge", accepted at The IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2019), June 16-21, 2019, Long Beach, California, US.</ul>
+                            <ul>M. Poggi, F. Aleotti, F. Tosi, S. Mattoccia, "Towards real-time unsupervised monocular depth estimation on CPU", accepted at IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018), October 1-5, 2018, Madrid, Spain.</ul>
+                            <ul>F. Aleotti, F. Tosi, M. Poggi, S. Mattoccia, "Generative Adversarial Networks for unsupervised monocular depth prediction", accepted at 3D Reconstruction in the Wild 2018 (3DRW 2018), in conjunction with (ECCV 2018), September 14, 2018, Munich, Germany,.</ul>
+                        </li>                        
                     </div>
                 </div>
             </div>
