@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -401,6 +401,7 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    color: #{{site.color.primary}}
 }
 
 .portfolio-modal .modal-content img {
@@ -409,6 +410,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
+    color: #{{site.color.primary}}
 }
 
 .portfolio-modal .close-modal {

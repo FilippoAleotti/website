@@ -18,7 +18,7 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            <label>"{{ post.title }}"</label>
+                        <label><span style="color:#{{site.color.secondary}}">{{post.short}}:</span> {{ post.title }}</label>
                         </a>
                     </div>
                 {% endfor %}

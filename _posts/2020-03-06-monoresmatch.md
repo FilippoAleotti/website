@@ -5,7 +5,8 @@ date: 2019-06-16
 img: monoresmatch.gif
 alt: image-alt
 project-date: June 2019
-conference: IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR)
+conference: IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION
+short: CVPR2019
 keywords: [Monocular Depth Estimation, Deep Learning] 
 title: Learning monocular depth estimation infusing traditional stereo knowledge
 
