@@ -17,29 +17,37 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             
                             <ul class="list-inline item-details">
+                                {% if post.authors %}
+                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Authors:</span>
+                                        <br>
+                                        {% for key in post.authors %}
+                                            <ul> {{ key }} </ul>
+                                        {% endfor %}
+                                    </li>
+                                {% endif %}
+                                {% if post.conference %}
+                                <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Conference:</span>
+                                    <br>
+                                    {{ post.conference }}
+                                </li>
+                                {% endif %}
                                 {% if post.project-date %}
-                                    <li class="col-lg-4"><span style="color: #{{site.color.secondary}};">Date:</span>
+                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Date:</span>
                                         <br>
                                         {{ post.project-date }}
                                     </li>
                                 {% endif %}
-                                {% if post.conference %}
-                                    <li class="col-lg-4"><span style="color: #{{site.color.secondary}};">Conference:</span>
-                                        <br>
-                                        {{ post.conference }}
-                                    </li>
-                                {% endif %}
                                 {% if post.keywords %}
-                                    <li class="col-lg-4"><span style="color: #{{site.color.secondary}};">Keywords:</span>
+                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Keywords:</span>
                                         <br>
                                         {% for key in post.keywords %}
-                                            <ul style="text-align: left;"> - {{ key }} </ul>
+                                            <ul> {{ key }} </ul>
                                         {% endfor %}
                                     </li>
                                 {% endif %}
                             </ul>
                             <br>
-                        <div class="content" style="color: #{{site.color.primary}}; font-size:small; margin-top:10%;">
+                        <div class="content" style="color: #{{site.color.primary}}; font-size:10px; margin-top:10%;">
                             {{post.content}}
                         </div>                        
                     </div>

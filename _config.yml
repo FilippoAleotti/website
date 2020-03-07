@@ -4,7 +4,7 @@ email: filippoaleotti@yahoo.it
 url: https://filippoaleotti.github.io/website/
 description: "PhD student @ University of Bologna"
 keywords: "your keywords, separated by commas"
-skills: ""
+skills: "PhD student @ University of Bologna"
 meta_author: Aleotti Filippo
 
 # Google webmaster tools
@@ -34,7 +34,7 @@ color:
 # Footer settings
 footer:
   copyright: Filippo Aleotti
-  credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. 
+  credits: <a class="footer-credits" href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a> is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com" class="footer-credits">Start Bootstrap</a>. 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

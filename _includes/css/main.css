@@ -100,13 +100,13 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 200;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 0.8em;
+    font-weight: 100;
 }
 
 @media(min-width:768px) {
@@ -458,4 +458,9 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.footer-credits:link{
+    outline: 0;
+    color: #{{site.color.secondary}} !important;
 }
