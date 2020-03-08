@@ -469,3 +469,10 @@ footer .footer-below {
     color: #{{site.color.secondary}};
     text-align:left;
 }
+
+.scrollable{
+    height: 200px; 
+    overflow-x: hidden; 
+    overflow-x: auto; 
+    text-align:justify;    
+}
