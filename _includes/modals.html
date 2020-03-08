@@ -8,44 +8,41 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+        <div class="container" style="color:#{{site.color.primary}}">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="modal-body">
-                            <h4>{{ post.title }}</h2>
+                            <h4>{{ post.title }}</h4>
                             <hr>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            
-                            <ul class="list-inline item-details">
-                                {% if post.authors %}
-                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Authors:</span>
-                                        <br>
-                                        {% for key in post.authors %}
-                                            <ul> {{ key }} </ul>
-                                        {% endfor %}
-                                    </li>
-                                {% endif %}
-                                {% if post.conference %}
-                                <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Conference:</span>
-                                    <br>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">  
+                            {% if post.authors %}
+                                <span class="modal-label col-lg-1">Authors:</span>
+                                <span class="col-lg-5">
+                                    {% for auth in post.authors %}
+                                            {{ auth }}
+                                    {% endfor %}
+                                </span>
+                            {% endif %}
+                            {% if post.conference %}
+                                <span class="modal-label col-lg-1">Conference:</span>
+                                <span class="col-lg-5">
                                     {{ post.conference }}
-                                </li>
-                                {% endif %}
-                                {% if post.project-date %}
-                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Date:</span>
-                                        <br>
-                                        {{ post.project-date }}
-                                    </li>
-                                {% endif %}
-                                {% if post.keywords %}
-                                    <li class="col-lg-3"><span style="color: #{{site.color.secondary}};">Keywords:</span>
-                                        <br>
-                                        {% for key in post.keywords %}
-                                            <ul> {{ key }} </ul>
-                                        {% endfor %}
-                                    </li>
-                                {% endif %}
-                            </ul>
+                                </span>
+                            {% endif %}
+                            {% if post.project-date %}
+                                <span class="modal-label col-lg-1">Date:</span>
+                                <span class="col-lg-5">
+                                    {{ post.project-date }}
+                                </span>
+                            {% endif %}
+                            {% if post.keywords %}
+                                <span class="modal-label col-lg-1">Keywords:</span>
+                                <span class="col-lg-5">
+                                    {% for key in post.keywords %}
+                                        {{ key }}
+                                    {% endfor %}
+                                </span>
+                            {% endif %}
                             <br>
                         <div class="content" style="color: #{{site.color.primary}}; font-size:10px; margin-top:10%;">
                             {{post.content}}

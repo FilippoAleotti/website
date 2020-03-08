@@ -464,3 +464,8 @@ footer .footer-below {
     outline: 0;
     color: #{{site.color.secondary}} !important;
 }
+
+.modal-label{
+    color: #{{site.color.secondary}};
+    text-align:left;
+}
