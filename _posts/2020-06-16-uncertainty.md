@@ -17,17 +17,6 @@ Despite the astonishing results yielded by such methodologies, learning to reaso
 Purposely, we explore for the first time how to estimate the uncertainty for this task and how this affects depth accuracy, proposing a novel peculiar technique specifically designed for self-supervised approaches. 
 On the standard KITTI dataset, we exhaustively assess the performance of each method with different self-supervised paradigms. Such evaluation highlights that our proposal i) always improves depth accuracy significantly and ii) yields state-of-the-art results concerning uncertainty estimation when training on sequences and competitive results uniquely deploying stereo pairs.
 
-If you find the code useful, please cite our paper:
-```
-@inproceedings{Poggi_CVPR_2020,
- title={On the uncertainty of self-supervised monocular depth estimation},
-    author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio 
-            and Mattoccia, Stefano},
-    booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
-    note={CVPR},
-    year={2020}
-}
-```
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bxVPXqf4zt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -44,3 +33,14 @@ If you find the code useful, please cite our paper:
         </li>
     </ul>
 </div>
+
+If you find the code useful, please cite our paper:
+```
+@inproceedings{Poggi_CVPR_2020,
+title={On the uncertainty of self-supervised monocular depth estimation},
+author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio and Mattoccia, Stefano},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+note={CVPR},
+year={2020}
+}
+```
