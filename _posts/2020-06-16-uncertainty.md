@@ -35,7 +35,7 @@ On the standard KITTI dataset, we exhaustively assess the performance of each me
 </div>
 
 If you find the code useful, please cite our paper:
-```
+<div id="reference">
 @inproceedings{Poggi_CVPR_2020,
 title={On the uncertainty of self-supervised monocular depth estimation},
 author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio and Mattoccia, Stefano},
@@ -43,4 +43,4 @@ booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
 note={CVPR},
 year={2020}
 }
-```
+</div>
