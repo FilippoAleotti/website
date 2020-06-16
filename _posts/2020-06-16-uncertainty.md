@@ -20,7 +20,7 @@ On the standard KITTI dataset, we exhaustively assess the performance of each me
 If you find the code useful, please cite our paper:
 ```
 @inproceedings{Poggi_CVPR_2020,
-    title={On the uncertainty of self-supervised monocular depth estimation},
+ title={On the uncertainty of self-supervised monocular depth estimation},
     author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio 
             and Mattoccia, Stefano},
     booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
