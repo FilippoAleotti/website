@@ -20,6 +20,18 @@ On the standard KITTI dataset, we exhaustively assess the performance of each me
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bxVPXqf4zt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div id="reference">
+```
+If you find the code useful, please cite our paper:
+@inproceedings{Poggi_CVPR_2020,
+title={On the uncertainty of self-supervised monocular depth estimation},
+author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio and Mattoccia, Stefano},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+note={CVPR},
+year={2020}
+}
+```
+</div>
 <div class="mx-auto" style="margin-bottom:-100px; margin-top:7%">
     <ul class="list-inline">
         <li>
@@ -34,13 +46,4 @@ On the standard KITTI dataset, we exhaustively assess the performance of each me
     </ul>
 </div>
 
-If you find the code useful, please cite our paper:
-<div id="reference">
-@inproceedings{Poggi_CVPR_2020,
-title={On the uncertainty of self-supervised monocular depth estimation},
-author={Poggi, Matteo and Aleotti, Filippo and Tosi, Fabio and Mattoccia, Stefano},
-booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
-note={CVPR},
-year={2020}
-}
-</div>
+
