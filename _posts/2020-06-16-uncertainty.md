@@ -20,7 +20,6 @@ On the standard KITTI dataset, we exhaustively assess the performance of each me
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bxVPXqf4zt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div id="reference">
 ```
 If you find the code useful, please cite our paper:
 @inproceedings{Poggi_CVPR_2020,
@@ -31,7 +30,7 @@ note={CVPR},
 year={2020}
 }
 ```
-</div>
+
 <div class="mx-auto" style="margin-bottom:-100px; margin-top:7%">
     <ul class="list-inline">
         <li>
