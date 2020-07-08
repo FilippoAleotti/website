@@ -19,7 +19,7 @@ Finally, our proposal achieves notable generalization capabilities dealing with 
 
 
 <div class="row" style="margin-top:7%">
-    <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/framework.png">
+    <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/framework.jpg">
 </div>
 
 
