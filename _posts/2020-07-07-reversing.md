@@ -17,11 +17,18 @@ In contrast, to soften typical stereo artefacts, we propose a novel self-supervi
 We thoroughly evaluate with popular stereo datasets the impact of different supervisory signals showing how stereo networks trained with our paradigm outperform existing self-supervised frameworks. 
 Finally, our proposal achieves notable generalization capabilities dealing with domain shift issues.
 
+# Framework
 
 <div class="row" style="margin-top:7%">
     <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/framework.jpg">
 </div>
 
+# Qualitative results
+
+From top to bottom, the left, the right and the output of the self-supervised stereo network (PSMNet) using the monocular enhanced proxies.
+<div class="row" style="margin-top:7%">
+    <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/qualitative.jpg">
+</div>
 
 <div class="mx-auto" style="margin-bottom:-100px; margin-top:7%">
     <ul class="list-inline">
