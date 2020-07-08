@@ -18,6 +18,7 @@ We thoroughly evaluate with popular stereo datasets the impact of different supe
 Finally, our proposal achieves notable generalization capabilities dealing with domain shift issues.
 
 # Framework
+Starting from a RGB dataset, our goal is to train a robust deep stereo network. To obtain this result, we first generate sparse values using traditional stereo algorithms, then we train a Monocular Completion Network (MCN) to generate dense maps. This network is similar to a completion network, since it takes a single RGB image and a small subset of points from the all set of points provided by the traditional algorithm. We exploit the Consensus Mechanism over multiple predictions (leveraging random point extractions and augmentation techniques) to filter out uncertaint points from the maps predicted by MCN, obtaining our final maps (as in the banner gif). Finally, we train a deep stereo network using such maps. Even if we do not rely on active sensors or external informations than simple RGB stereo pairs, the resulting deep networks prove to be robust, even near occlusions, and reach state of the art performance. 
 
 <div class="row" style="margin-top:7%">
     <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/framework.jpg">
@@ -25,7 +26,8 @@ Finally, our proposal achieves notable generalization capabilities dealing with 
 
 # Qualitative results
 
-From top to bottom, the left, the right and the output of the self-supervised stereo network (PSMNet) using the monocular enhanced proxies.
+From top to bottom, the left, the right and the output of the self-supervised stereo network (PSMNet) trained with the monocular enhanced proxies.
+
 <div class="row" style="margin-top:7%">
     <img class="col-md-12" alt="qualitative" style="max-width:100%;"  src="img/works/reversing/qualitative.jpg">
 </div>
