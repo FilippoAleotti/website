@@ -27,7 +27,7 @@ Finally, our proposal achieves notable generalization capabilities dealing with 
 
 From top to bottom, the left, the right and the output of the self-supervised stereo network (PSMNet) using the monocular enhanced proxies.
 <div class="row" style="margin-top:7%">
-    <img class="col-md-12" alt="architecture" style="max-width:100%;"  src="img/works/reversing/qualitative.jpg">
+    <img class="col-md-12" alt="qualitative" style="max-width:100%;"  src="img/works/reversing/qualitative.jpg">
 </div>
 
 <div class="mx-auto" style="margin-bottom:-100px; margin-top:7%">
