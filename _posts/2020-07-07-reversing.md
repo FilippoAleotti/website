@@ -7,7 +7,7 @@ alt: image-alt
 project-date: July 2020
 conference: European Conference on Computer Vision
 short: ECCV2020
-keywords: [Stereo Matching -, Monocular Depth Estimation -, Deep Learning] 
+keywords: [Stereo Matching -, Monocular Depth Estimation -, Deep Learning]
 title: Reversing the cycle: self-supervised deep stereo through enhanced monocular distillation
 authors: [F. Aleotti, F. Tosi, L. Zhang, M. Poggi and S. Mattoccia]
 ---
