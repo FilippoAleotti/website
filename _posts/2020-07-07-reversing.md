@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 5
+modal-id: 6
 date: 2020-07-07
 img: reversing.gif
 alt: image-alt
-project-date: June 2020
+project-date: July 2020
 conference: European Conference on Computer Vision
 short: ECCV2020
 keywords: [Stereo Matching -, Monocular Depth Estimation -, Deep Learning] 
